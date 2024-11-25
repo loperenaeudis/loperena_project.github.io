@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e94a4a;
+}
+
+header {
+    background-color: #333333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    background-color: #0ea9c0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(3, 239, 133, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #10bbca;
+}
+
+footer {
+    background-color: #1d11cb;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #f39c12;
+}
+body{
+    background: url(imagenes/preview.webp ) top / cover rgb(104, 148, 79);
+   
+}
+div {
+    height: 500px;
+}
+
+
+
+.historia {
+    background-image: url('ruta/a/tu-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.historia h2,
+.historia p {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+    display: inline-block;
+    padding: 10px;
+}
+
+.simbolismo {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
